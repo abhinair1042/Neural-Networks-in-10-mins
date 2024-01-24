@@ -65,7 +65,7 @@ So, if I had to write this in Psuedo Code, it would look something like this:
 dataset = "a 2000 row dataset with x and target y values"
 weights = "initialize a random set of values in matrices"
 
-for data in datapoint:
+for datapoint in data:
     model_output = conduct_forward_pass(weights, data)
     loss = model_output - data.target
     weights = conduct_backward_pass(weights, loss)
@@ -78,7 +78,7 @@ dataset = "a 2000 row dataset with x and target y values"
 weights = "initialize a random set of values in matrices"
 
 for epoch in range(0, N):
-    for data in datapoint:
+    for datapoint in data:
         model_output = conduct_forward_pass(weights, data)
         loss = model_output - data.target
         weights = conduct_backward_pass(weights, loss)
