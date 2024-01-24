@@ -39,7 +39,7 @@ In the above figure, the $w_i,_j$ is basically the strength of the connection fr
 \end{bmatrix}
 ```
 
-Never mind the math. Matrices are an efficient data structure that also enable parallel computation (with Nvidia GPUs).
+Matrices are an efficient data structure that also enable parallel computation (with Nvidia GPUs).
 
 ## 3. The Last Concept (Elephant in the Room) - Gradient Descend
 
