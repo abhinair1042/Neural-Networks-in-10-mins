@@ -41,7 +41,7 @@ In the above figure, the $w_i,_j$ is basically the strength of the connection fr
 
 Matrices are an efficient data structure that also enable parallel computation (with Nvidia GPUs).
 
-## 3. The Last Concept (Elephant in the Room) - Gradient Descend
+## 3. The Last Concept (Elephant in the Room) - Gradient Descent
 
 If you consider an entire network as a single function $y = f(x)$, where x is an output, f is the network, and y as the output, the act of computing $y$ is called the 'Forward Pass'. For a particular set of parameters (or weights), you can calculate a loss by comparing it with the actual output you want. 
 
