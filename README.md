@@ -55,7 +55,7 @@ The loss is a measure of how far off the network is from the actual output. The 
   <img src="https://miro.medium.com/v2/resize:fit:1062/1*KXhoClXogcckzwxfvIFReQ.png" alt="drawing" width="600"/>
 </p>
 
-You can use calculus to do this. Again, nevermind the math, the main thing to note is that you update the weight of each neuron by nudging it every so slightly from its current value to see which way you go will reduce the loss graph above. This is called the 'Backward Pass'. Nudging the values is called calculating the $Gradient$ for each neuron.
+You can use calculus to do this. Again, nevermind the math, the main thing to note is that you update the weight of each neuron by nudging it every so slightly from its current value to see which way you go will reduce the loss graph above. Based on that we update the weight towards the direction where the loss is lower than what it is currently. This is called the 'Backward Pass'. Nudging the values is called calculating the $Gradient$ for each neuron.
 
 Intuitively, performing the backward pass tells you how much each neuron contributes to the total loss.
 
